@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home-box">
+                <h3>HOME</h3>
+                <p id="home-points">0</p>
+                <div id="home-score-btns">
+                    <button onclick="addOneHome()" class="home-score" id="home-one">+1</button>
+                    <button onclick="addTwoHome()" class="home-score" id="home-two">+2</button>
+                    <button onclick="addThreeHome()"class="home-score" id="home-three">+3</button>
+                </div>
+            </div>
+            <div id="away-box">
+                <h3>GUEST</h3>
+                <p id="away-points">0</p>
+                <div id="away-score-btns">
+                    <button onclick="addOneAway()" class="away-score" id="away-one">+1</button>
+                    <button onclick="addTwoAway()" class="away-score" id="away-two">+2</button>
+                    <button onclick="addThreeAway()" class="away-score" id="away-three">+3</button>
+                </div>
+            </div>
+        </div>
+            <button onClick="resetGame()" id="reset">RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>

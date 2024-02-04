@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    margin-left: auto;
+    margin-right: auto;
+    height: 575px;
+    width: 500px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #EEEEEE;
+    text-align: center;
+    margin-bottom: -70px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-box {
+    width: 149px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#away-box {
+    width: 149px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home-points {
+    background: black;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 337px;
+    border-radius: 5px;
+    color: red;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+#away-points {
+    background: black;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 337px;
+    border-radius: 5px;
+    color: red;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+#home-score-btns{
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-score {
+    background: #1B244A;
+    color: #EEEEEE;
+    border: 2px solid #9AABD8;
+    padding: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    margin-top: -150px;
+}
+
+#away-score-btns {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.away-score {
+    background: #1B244A;
+    color: #EEEEEE;
+    border: 2px solid #9AABD8;
+    padding: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    margin-top: -150px;
+}
+
+
+#reset {
+    border: 1px solid red;
+    background: red;
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+}
+
